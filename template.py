@@ -1,5 +1,6 @@
 import re
 import math
+import string
 
 
 def read_input(name: str) -> str:
