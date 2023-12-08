@@ -5,7 +5,7 @@ import string
 
 def read_input(name: str) -> str:
     with open('inputs/' + name, 'r') as f:
-        return f.read()
+        return f.read().strip()
 
 
 def part_1():
